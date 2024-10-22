@@ -18,7 +18,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 let score = 200
 let score2 = 300
-let score3 = 400
+let score3 = 500
 // console.log(Array.of(score,score2,score3)); this will join different aray in single array
 
 // The Array.from() method returns an Array object from any object with a length property or any iterable object.
