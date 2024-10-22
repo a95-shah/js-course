@@ -39,7 +39,7 @@ const promiseThree = new Promise(function(resolve,reject){
 })
 promiseThree.then(function(user){
     // console.log("system updated sucessfully");
-    console.log(user);    
+    // console.log(user);    
 })
 
 
@@ -92,7 +92,19 @@ async function consumePromiseFive(){
 // consumePromiseFive()
 
 
-
+// practical example 
+async function getalluser() {
+    try {
+        const response = await fetch('https://jsonplaceholder.typicode.com/users')
+        const data = await response.json()
+        console.log(data);
+        
+    } catch (error) {
+        console.log("E:",error);
+        
+    }
+}
+getalluser()
 
 
 
