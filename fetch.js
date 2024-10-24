@@ -15,5 +15,23 @@ fetch('http://api.weatherapi.com/v1/current.json?key=5605e1b172124f2bb6760047242
     // let firstIndex = data[0];
     console.log(data);
     
-    console.log(data.current.temp_c);
+    console.log(data.current.humidity);
 })
+
+
+
+
+
+
+
+
+
+
+
+
+//   fetch('http://api.weatherapi.com/v1/current.json?key=5605e1b172124f2bb6760047242310&q=pakistan&aqi=no')
+    //   .then((res) => res.json())
+    //   .then((data) => {
+    //     console.log(data);
+        
+    //   })
