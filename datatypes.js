@@ -11,6 +11,11 @@
 // Array object:
 // const cars = ["Saab", "Volvo", "BMW"];
 
+// premitive data types:
+// there are 7 premitive data types
+// numbers,boolians,string,bigint,null,undefined,symbol
+// non-premitive are array,object and function
+
 
 // conversion of data types 
 // let score = 33
@@ -60,3 +65,36 @@
 // let x2 = 3n;
 // const y2 = x2++;
 // // x2 is 4n; y2 is 3n
+
+// countered or the flow is broken.
+
+const food = 'salad';
+
+switch (food) {
+  case 'oyster':
+    console.log('The taste of the sea 🦪');
+    break;
+  case 'pizza':
+    console.log('A delicious pie 🍕');
+    break;
+  default:
+    console.log('Enjoy your meal');
+}
+
+const name = 'ahsan'
+switch (name) {
+    case 'ahsan':
+        console.log('web developer');
+        break;
+    case 'saad':
+        console.log('charted Accountant');
+        break;
+    case 'jan':
+        onsole.log('Realtor');
+        break;
+    default:
+        console.log("good luck");
+        
+        break;
+}
+
