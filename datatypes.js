@@ -67,7 +67,6 @@
 // // x2 is 4n; y2 is 3n
 
 
-
 // countered or the flow is broken.
 // const food = 'salad';
 // switch (food) {
@@ -97,4 +96,20 @@
         
 //         break;
 // }
+
+// arrays
+let text = "HELLO WORLD";
+// let char = text.charAt(0);
+let char = text.charCodeAt(0);
+// console.log(char);
+
+
+let text1 = "John";
+let text2 = "Doe";
+let text3 = text1 + " " + text2;
+console.log(text3);
+
+
+
+
 
