@@ -27,6 +27,61 @@ let score3 = 500
 // console.log(Array.from({name:"faizyab"}));
 
 
+// const fruitBasket = ['apple','mango','banana','orange','peach','leachi']
+// // console.log(fruitBasket);
+// let text = "";
+// fruitBasket.forEach(myFunction);
+// text += ".";
+// function myFunction(value){
+//     text += "." +value+ "\n";
+// }
+// console.log(text);
+
+
+// const fruitBasket = ['apple', 'mango', 'banana', 'orange', 'peach', 'leachi'];
+// let text = "";
+
+// fruitBasket.forEach(myFunction);
+
+// function myFunction(value) {
+//     text += "." + value + "\n";
+// }
+
+// console.log(text);
+
+
+// const mynames = ['ali', 'hassan', 'saad', 'ahmed', 'naseer'];
+// let text = "";
+
+// mynames.forEach (name=> {
+//     text += name[0];
+// });
+
+// console.log(text);
+
+// const mynames = ['ali', 'hassan', 'saad', 'ahmed', 'naseer'];
+// let text = "";
+// for (const name of mynames) {
+//     text+= name[0]
+// }
+// console.log(text);
+
+
+
+const basket = ['ball','bat','wicket','halmet','gluves']
+let text = ''
+for (const name of basket) {
+    text +=  " " + name
+}
+console.log(text);
+
+
+
+
+
+
+
+
 
 
 
