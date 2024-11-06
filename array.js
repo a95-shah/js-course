@@ -68,12 +68,14 @@ let score3 = 500
 
 
 
-const basket = ['ball','bat','wicket','halmet','gluves']
-let text = ''
-for (const name of basket) {
-    text +=  " " + name
-}
-console.log(text);
+// const basket = ['ball','bat','wicket','halmet','gluves']
+// let text = ''
+// for (const name of basket) {
+//     text +=  " " + name
+// }
+// console.log(text);
+
+
 
 
 
